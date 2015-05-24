@@ -1687,7 +1687,7 @@ configure:8537: $? = 0
 configure:8537: result: yes
 configure:8549: checking for kqueue
 configure:8549: g++ -o conftest -g -O2 -W -Wall   conftest.cpp  >&5
-/tmp/ccoZKT2V.o: In function `main':
+/tmp/ccg4urW7.o: In function `main':
 /home/alex/git/aa-click/conftest.cpp:120: undefined reference to `kqueue'
 collect2: error: ld returned 1 exit status
 configure:8549: $? = 1
@@ -1828,7 +1828,7 @@ configure:8606: checking for dlfcn.h
 configure:8606: result: yes
 configure:8618: checking for dlopen
 configure:8618: g++ -o conftest -g -O2 -W -Wall   conftest.cpp  >&5
-/tmp/ccnVjMq7.o: In function `main':
+/tmp/cclYrDIj.o: In function `main':
 /home/alex/git/aa-click/conftest.cpp:121: undefined reference to `dlopen'
 collect2: error: ld returned 1 exit status
 configure:8618: $? = 1
@@ -11033,11 +11033,17 @@ config.status:1040: creating tools/click-xform/Makefile
 config.status:1040: creating tools/click2xml/Makefile
 config.status:1040: creating tools/click-install/Makefile
 config.status:1040: creating include/click/config.h
+config.status:1215: include/click/config.h is unchanged
 config.status:1040: creating include/click/pathvars.h
+config.status:1215: include/click/pathvars.h is unchanged
 config.status:1040: creating include/click/config-bsdmodule.h
+config.status:1215: include/click/config-bsdmodule.h is unchanged
 config.status:1040: creating include/click/config-linuxmodule.h
+config.status:1215: include/click/config-linuxmodule.h is unchanged
 config.status:1040: creating include/click/config-ns.h
+config.status:1215: include/click/config-ns.h is unchanged
 config.status:1040: creating include/click/config-userlevel.h
+config.status:1215: include/click/config-userlevel.h is unchanged
 config.status:1229: executing default-1 commands
 
 ## ---------------- ##
